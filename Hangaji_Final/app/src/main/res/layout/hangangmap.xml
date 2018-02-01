@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <HorizontalScrollView
+        android:id="@+id/scroll"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/mapback"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="130dp"
+                android:id="@+id/weatherView"/>
+
+            <Button
+                android:id="@+id/gangseo"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="400dp"
+                android:layout_marginTop="360dp" />
+            <Button
+                android:id="@+id/yanghwa"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="520dp"
+                android:layout_marginTop="410dp" />
+            <Button
+                android:id="@+id/sunyoudo"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="580dp"
+                android:layout_marginTop="330dp" />
+            <Button
+                android:id="@+id/yeouido"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="660dp"
+                android:layout_marginTop="425dp" />
+            <Button
+                android:id="@+id/nanji"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="650dp"
+                android:layout_marginTop="240dp" />
+            <Button
+                android:id="@+id/mangwon"
+                android:layout_width="120dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="715dp"
+                android:layout_marginTop="300dp" />
+            <Button
+                android:id="@+id/ichon"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="910dp"
+                android:layout_marginTop="390dp" />
+            <Button
+                android:id="@+id/banpo"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="910dp"
+                android:layout_marginTop="560dp" />
+            <Button
+                android:id="@+id/jamwon"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="1100dp"
+                android:layout_marginTop="480dp" />
+            <Button
+                android:id="@+id/ttukseom"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="1160dp"
+                android:layout_marginTop="320dp" />
+            <Button
+                android:id="@+id/jamsil"
+                android:layout_width="130dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="1260dp"
+                android:layout_marginTop="500dp" />
+
+            <Button
+                android:id="@+id/gwangnaru"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:onClick="goDetail"
+                android:layout_marginLeft="1390dp"
+                android:layout_marginTop="380dp"/>
+
+            <!--아래 버튼은 가로 스크롤뷰의 비율을 맞추기 위한 버튼입니다.-->
+            <Button
+                android:id="@+id/etc"
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:background="#00000000"
+                android:layout_marginLeft="1710dp"
+                android:layout_marginTop="350dp" />
+        </RelativeLayout>
+    </HorizontalScrollView>
+</LinearLayout>
